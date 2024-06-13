@@ -29,7 +29,33 @@ here: https://yookassa.ru/developers/payment-acceptance/integration-scenarios/wi
 
 Use `confirmation_token` from response.
 
-## Example
+## Quick start example
+
+```tsx
+const config: YooMoneyCheckoutWidgetConfig = {
+  confirmation_token: 'ct-12312323-1231-1231-1231-123123123123',
+  error_callback: (result: YooMoneyErrorCallbackResult) => {
+    console.error('error_callback', result.error);
+  },
+  customization: {
+    modal: true
+  }
+}
+const onComplete = () => {
+  alert('Payment accepted');
+};
+const onModalClose = () => {
+  alert('Payment not finished');
+}
+
+return (
+  <>
+    <YooWidget config={config} onComplete={onComplete} onModalClose={onModalClose}/>
+  </>
+)
+```
+
+## Full example
 
 ```tsx
 import YooWidget from "react-yoomoneycheckoutwidget";
