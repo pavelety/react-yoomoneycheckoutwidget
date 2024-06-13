@@ -1,0 +1,37 @@
+{
+  "name": "react-yoomoneycheckoutwidget",
+  "version": "0.0.1",
+  "description": "React Component for YooKassa Widget - YooMoneyCheckoutWidget (ЮKassa)",
+  "main": "YooWidget.tsx",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pavelety/react-yoomoneycheckoutwidget.git"
+  },
+  "keywords": [
+    "react",
+    "yookassa",
+    "widget",
+    "YooMoneyCheckoutWidget",
+    "ЮKassa"
+  ],
+  "author": {
+    "name": "Pavel Antoshenko",
+    "url": "https://dinamex.ru",
+    "githubUsername": "pavelety"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pavelety/react-yoomoneycheckoutwidget/issues"
+  },
+  "homepage": "https://github.com/pavelety/react-yoomoneycheckoutwidget#readme",
+  "dependencies": {
+    "react": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.3",
+    "types-yoomoneycheckoutwidget": "^0.0.2"
+  }
+}
